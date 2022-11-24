@@ -1,0 +1,121 @@
+body{
+    background: rgb(207,227,20);
+    background: radial-gradient(circle, rgba(207,227,20,1) 16%, rgba(13,213,94,1) 96%);
+    background-image: url("food1.jpg");
+    background-size:contain;
+   
+}
+
+.container-fluid{
+    
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-family: 'Times New Roman', Times, serif;
+    color:#2e4053;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+h1{
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+.name{
+    margin-left: 30px;
+    margin-right: 780px;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: white;
+}
+#firstname,
+#lastname,
+#inputAddress2{
+    background-color: #f68607;
+    border-color: #f68607;
+    color: white;
+    border-radius: 10px;
+}
+#firstname::placeholder,
+#lastname::placeholder,
+#inputAddress2{
+    color:black;
+    opacity: 1;
+}
+#address,
+#city,
+#pincode{
+    background-color: green;
+    border-color: green;
+    color: white;
+}
+#address::placeholder,
+#city,
+#pincode{
+    color:rgb(91, 85, 85);
+}
+.address{
+    margin-left: 30px;
+    margin-right: 780px;
+    margin-top: 30px;
+    font-weight: bolder;
+    color: white;
+}
+.table{
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+#tbody{
+    background-color: aliceblue;
+    height:50px;
+}
+
+#clear{
+  color: aliceblue;
+  background-color: orangered;
+  
+}
+#pincode{
+    width: 235px;
+}
+#state{
+    width: 235px;
+}
+
+
+
+@media (max-width:1067px){
+
+    .container-fluid {
+        display: block;
+        justify-content: start
+    }
+    h1{
+        font-size: 20px;
+    }
+    background-image{
+       position:absolute;
+    }
+    .name{
+      width: 250px;
+      display: block;
+    }
+    .address{
+        width: 250px;
+      display: block;
+    }
+    #pincode{
+        width: 250px;
+      display: block;
+    }
+    #state{
+        width: 250px;
+      display: block;
+    }
+    #tbody{
+        background-color: aliceblue;
+        height:50px;
+    }
+}
